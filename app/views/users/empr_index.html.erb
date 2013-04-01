@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+<p>
+<b> Welcome  </b>
+<%= @user.first_name %>
+<%= @user.user_type %>
+</p>
+<%= link_to 'Post New Jobs', new_job_path %>
+<%= link_to 'Posted Jobs', "/emprshow" %>
+<%= link_to 'logout', "logout" %>

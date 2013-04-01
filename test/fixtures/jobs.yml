@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  JobId: MyString
+  type: 
+  JobDesc: MyText
+  exp_year: 1
+  exp_mon: 1
+  salary: MyString
+  Vacency: 1
+  Location: MyString
+
+two:
+  JobId: MyString
+  type: 
+  JobDesc: MyText
+  exp_year: 1
+  exp_mon: 1
+  salary: MyString
+  Vacency: 1
+  Location: MyString

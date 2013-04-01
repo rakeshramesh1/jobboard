@@ -1,0 +1,25 @@
+<h1>Listing emp_jobs</h1>
+
+<table>
+  <tr>
+    <th>Empid</th>
+    <th>Jobid</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @emp_jobs.each do |emp_job| %>
+  <tr>
+    <td><%= emp_job.EmpID %></td>
+    <td><%= emp_job.JobID %></td>
+    <td><%= link_to 'Show', emp_job %></td>
+    <td><%= link_to 'Edit', edit_emp_job_path(emp_job) %></td>
+    <td><%= link_to 'Destroy', emp_job, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Emp job', new_emp_job_path %>
